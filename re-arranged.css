@@ -1,0 +1,78 @@
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+        font-size: 95%;
+    }
+    #small {
+        max-width: col-12;
+    }
+    #medium {
+        max-width: col-12;
+    }
+    #large {
+        max-width: col-12;
+    }
+
+}
+
+@media only screen and (min-width: 301px) and (max-width: 767px) {
+    body {
+        background-color: green;
+        font-size: 120%;
+        width: 100%;
+        border: 1px;
+    }
+    #small {
+        width: 66%;
+        display: block;
+        float: left;
+    }
+    #medium {
+        width: 34%;
+        display: block;
+        float: left;
+    }
+    #large {
+        width: 100%;
+        display: block;
+        float: right;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+        color: white;
+        font-size: 120%;
+    }
+    #small {
+        width: 33%;
+        display: block;
+        float: left;
+    }
+    #medium {
+        width: 33%;
+        display: block;
+        float: left;
+    }
+    #large {
+        width: 34%;
+        display: block;
+        float: right;
+    }
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    #my-content { display: block; }  /* show it on small screens */
+}
+
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+    #my-content { display: none; }   /* hide it elsewhere */
+}
+
+body {
+    font-family: Helvetica;
+}
